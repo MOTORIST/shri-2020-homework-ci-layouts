@@ -38,6 +38,9 @@ import '../src/components/UI/Button/_full/Button_full.post.css';
 import '../src/components/UI/Button/Icon/Button-Icon.post.css';
 import '../src/components/UI/Button/Text/Button-Text.post.css';
 
+// Link
+import '../src/components/UI/Link/Link.post.css';
+
 addParameters({
   themes: [
     {

@@ -100,10 +100,23 @@ import '../src/components/Project/SettingsForm/SettingsForm.post.css';
 import '../src/components/Project/SettingsForm/SaveButton/SettingsForm-SaveButton.post.css';
 import '../src/components/Project/SettingsForm/MinutesInput/SettingsForm-MinutesInput.post.css';
 
-//DateTime
+// DateTime
 import '../src/components/Project/DateTime/DateTime.post.css';
 import '../src/components/Project/DateTime/Date/DateTime-Date.post.css';
 import '../src/components/Project/DateTime/Time/DateTime-Time.post.css';
+
+// Build
+import '../src/components/Project/Build/Build.post.css';
+
+import '../src/components/Project/Build/Status/Status.post.css';
+import '../src/components/Project/Build/Title/Build-Title.post.css';
+import '../src/components/Project/Build/TitleText/Build-TitleText.post.css';
+import '../src/components/Project/Build/Number/Build-Number.post.css';
+import '../src/components/Project/Build/Meta/Build-Meta.post.css';
+import '../src/components/Project/Build/MetaRepo/Build-MetaRepo.post.css';
+import '../src/components/Project/Build/MetaUser/Build-MetaUser.post.css';
+import '../src/components/Project/Build/MetaHash/Build-MetaHash.post.css';
+import '../src/components/Project/Build/DateTime/Build-DateTime.post.css';
 
 addParameters({
   themes: [

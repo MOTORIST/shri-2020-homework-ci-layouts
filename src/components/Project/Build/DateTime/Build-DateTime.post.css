@@ -1,0 +1,9 @@
+.Build-DateTime {
+  padding: var(--space-4xs) 0 var(--space-6xs);
+
+  @media (min-width: $screen-m) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

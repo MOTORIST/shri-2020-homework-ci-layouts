@@ -1,0 +1,9 @@
+.Button_icon_clear {
+  padding: 0;
+  height: initial;
+  width: initial;
+
+  & .Button-Icon {
+    width: initial;
+  }
+}

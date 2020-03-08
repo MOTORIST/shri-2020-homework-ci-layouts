@@ -4,6 +4,10 @@
   "description": "Shri home work",
   "main": "index.js",
   "author": "Gerasin Ivan <webartmotor@gmail.com>",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "browserslist": {
     "production": [
       "last 2 version"
@@ -12,5 +16,17 @@
       "last 2 version"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@storybook/addon-viewport": "^5.3.14",
+    "@storybook/html": "^5.3.14",
+    "babel-loader": "^8.0.6",
+    "postcss-calc": "^7.0.2",
+    "postcss-color-function": "^4.1.0",
+    "postcss-nested": "^4.2.1",
+    "postcss-simple-vars": "^5.0.2",
+    "storybook-addon-themes": "^5.4.0"
+  }
 }

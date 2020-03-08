@@ -77,6 +77,23 @@ import '../src/components/UI/IconPlus/_distance/IconPlus_distance_xs.post.css';
 // Code
 import '../src/components/UI/Code/Code.post.css';
 
+// Typography
+
+import '../src/components/UI/Typography/Typography.post.css';
+
+import '../src/components/UI/Typography/_variant/Typography_variant_h1.post.css';
+import '../src/components/UI/Typography/_variant/Typography_variant_h2.post.css';
+import '../src/components/UI/Typography/_variant/Typography_variant_h3.post.css';
+import '../src/components/UI/Typography/_variant/Typography_variant_h4.post.css';
+import '../src/components/UI/Typography/_variant/Typography_variant_body.post.css';
+
+import '../src/components/UI/Typography/_color/Typography_color_success.post.css';
+import '../src/components/UI/Typography/_color/Typography_color_error.post.css';
+import '../src/components/UI/Typography/_color/Typography_color_warning.post.css';
+import '../src/components/UI/Typography/_color/Typography_color_neutral.post.css';
+
+import '../src/components/UI/Typography/_nowrap/Typography_nowrap.post.css';
+
 addParameters({
   themes: [
     {

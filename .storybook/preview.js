@@ -41,6 +41,20 @@ import '../src/components/UI/Button/Text/Button-Text.post.css';
 // Link
 import '../src/components/UI/Link/Link.post.css';
 
+// Input
+import '../src/components/UI/Input/Input.post.css';
+
+import '../src/components/UI/Input/_size/Input_size_s.post.css';
+import '../src/components/UI/Input/_size/Input_size_m.post.css';
+
+import '../src/components/UI/Input/_full/Input_full.post.css';
+
+import '../src/components/UI/Input/_clearable/Input_clearable.post.css';
+
+import '../src/components/UI/Input/Control/Input-Control.post.css';
+import '../src/components/UI/Input/ClearButton/Input-ClearButton.post.css';
+import '../src/components/UI/Input/ClearIcon/Input-ClearIcon.post.css';
+
 addParameters({
   themes: [
     {

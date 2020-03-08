@@ -7,7 +7,7 @@
 
   @media (min-width: $screen-m) {
     margin-left: var(--space-6xs);
-    max-width: 850px;
+    max-width: 760px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

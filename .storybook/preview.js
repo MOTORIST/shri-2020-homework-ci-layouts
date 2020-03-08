@@ -118,6 +118,11 @@ import '../src/components/Project/Build/MetaUser/Build-MetaUser.post.css';
 import '../src/components/Project/Build/MetaHash/Build-MetaHash.post.css';
 import '../src/components/Project/Build/DateTime/Build-DateTime.post.css';
 
+// BuildList
+import '../src/components/Project/BuildList/BuildList.post.css';
+import '../src/components/Project/BuildList/Item/BuildList-Item.post.css';
+import '../src/components/Project/BuildList/MoreButton/BuildList-MoreButton.post.css';
+
 addParameters({
   themes: [
     {

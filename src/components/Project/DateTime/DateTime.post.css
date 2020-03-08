@@ -1,0 +1,14 @@
+.DateTime {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.06px;
+  color: #595959;
+  display: flex;
+
+  & .DateTime-Date {
+    margin-right: var(--space-6xs);
+  }
+}

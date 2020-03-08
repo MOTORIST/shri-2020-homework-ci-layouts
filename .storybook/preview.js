@@ -100,6 +100,11 @@ import '../src/components/Project/SettingsForm/SettingsForm.post.css';
 import '../src/components/Project/SettingsForm/SaveButton/SettingsForm-SaveButton.post.css';
 import '../src/components/Project/SettingsForm/MinutesInput/SettingsForm-MinutesInput.post.css';
 
+//DateTime
+import '../src/components/Project/DateTime/DateTime.post.css';
+import '../src/components/Project/DateTime/Date/DateTime-Date.post.css';
+import '../src/components/Project/DateTime/Time/DateTime-Time.post.css';
+
 addParameters({
   themes: [
     {

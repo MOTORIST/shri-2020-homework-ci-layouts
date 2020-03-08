@@ -5,8 +5,8 @@ module.exports = {
         'screen-m': '1024px'
       }
     },
-    'postcss-color-function': {},
     'postcss-calc': {},
+    'postcss-color-function': {},
     'postcss-nested': {},
   },
 };

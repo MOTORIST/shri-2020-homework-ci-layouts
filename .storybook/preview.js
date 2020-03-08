@@ -131,6 +131,12 @@ import '../src/components/Project/Header/Title/Header-Title.post.css';
 import '../src/components/Project/Header/MobileButton/Header-MobileButton.post.css';
 import '../src/components/Project/Header/DesktopButton/Header-DesktopButton.post.css';
 
+// Footer
+import '../src/components/Project/Footer/Footer.post.css';
+import '../src/components/Project/Footer/Menu/Footer-Menu.post.css';
+import '../src/components/Project/Footer/MenuItem/Footer-MenuItem.post.css';
+import '../src/components/Project/Footer/Coop/Footer-Coop.post.css';
+
 addParameters({
   themes: [
     {

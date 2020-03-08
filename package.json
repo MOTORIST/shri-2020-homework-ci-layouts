@@ -1,0 +1,16 @@
+{
+  "name": "shri-2020-homework-bem",
+  "version": "1.0.0",
+  "description": "Shri home work",
+  "main": "index.js",
+  "author": "Gerasin Ivan <webartmotor@gmail.com>",
+  "browserslist": {
+    "production": [
+      "last 2 version"
+    ],
+    "development": [
+      "last 2 version"
+    ]
+  },
+  "license": "MIT"
+}

@@ -68,6 +68,11 @@ import '../src/components/UI/FormGroup/Label/_required/FormGroup-Label_required.
 
 import '../src/components/UI/FormGroup/Hint/FormGroup-Hint.post.css';
 
+// Icon Plus
+import '../src/components/UI/IconPlus/IconPlus.post.css';
+import '../src/components/UI/IconPlus/Content/IconPlus-Content.post.css';
+import '../src/components/UI/IconPlus/_distance/IconPlus_distance_xs.post.css';
+
 addParameters({
   themes: [
     {

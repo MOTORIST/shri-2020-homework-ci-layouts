@@ -1,4 +1,6 @@
 .Header-Title {
+  padding-right: 8px;
+  
   @media (min-width: $screen-m) {
     font-size: var(--text-size-l);
     line-height: var(--text-line-height-l);

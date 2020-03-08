@@ -1,0 +1,19 @@
+.Header_multiline {
+  height: initial;
+  align-items: flex-start;
+  padding: var(--space-2xs) var(--space-s);
+
+  .Header-Title {
+    margin: 0;
+  }
+
+  @media (min-width: $screen-m) {
+    align-items: center;
+
+    .Header-Title {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

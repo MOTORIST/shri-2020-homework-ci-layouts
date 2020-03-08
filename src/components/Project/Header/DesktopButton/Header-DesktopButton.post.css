@@ -1,0 +1,5 @@
+.Header-DesktopButton {
+  @media (max-width: $screen-m) {
+    display: none;
+  }
+}

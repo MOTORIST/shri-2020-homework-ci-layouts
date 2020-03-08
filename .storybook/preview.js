@@ -123,6 +123,14 @@ import '../src/components/Project/BuildList/BuildList.post.css';
 import '../src/components/Project/BuildList/Item/BuildList-Item.post.css';
 import '../src/components/Project/BuildList/MoreButton/BuildList-MoreButton.post.css';
 
+// Header
+import '../src/components/Project/Header/Header.post.css';
+import '../src/components/Project/Header/Actions/Header-Actions.post.css';
+import '../src/components/Project/Header/SettingsButton/Header-SettingsButton.post.css';
+import '../src/components/Project/Header/Title/Header-Title.post.css';
+import '../src/components/Project/Header/MobileButton/Header-MobileButton.post.css';
+import '../src/components/Project/Header/DesktopButton/Header-DesktopButton.post.css';
+
 addParameters({
   themes: [
     {

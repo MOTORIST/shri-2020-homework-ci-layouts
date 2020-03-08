@@ -94,6 +94,12 @@ import '../src/components/UI/Typography/_color/Typography_color_neutral.post.css
 
 import '../src/components/UI/Typography/_nowrap/Typography_nowrap.post.css';
 
+/* --------------- PROJECT --------------*/
+// SettingsForm
+import '../src/components/Project/SettingsForm/SettingsForm.post.css';
+import '../src/components/Project/SettingsForm/SaveButton/SettingsForm-SaveButton.post.css';
+import '../src/components/Project/SettingsForm/MinutesInput/SettingsForm-MinutesInput.post.css';
+
 addParameters({
   themes: [
     {

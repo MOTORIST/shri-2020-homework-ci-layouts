@@ -1,0 +1,9 @@
+.SettingsForm {
+  max-width: 474px;
+
+  @media (min-width: $screen-m) {
+    & .SettingsForm-SaveButton, & .SettingsForm-CancelButton {
+      width: initial;
+    }
+  }
+}

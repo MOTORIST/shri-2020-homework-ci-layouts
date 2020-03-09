@@ -1,7 +1,5 @@
 .Footer {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
   height: 68px;
   background: #F0F2F3;
   color: #7F8285;
@@ -15,9 +13,6 @@
   letter-spacing: 0.06px;
 
   @media (min-width: $screen-m) {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     height: 32px;
     padding: 0 100px;
   }

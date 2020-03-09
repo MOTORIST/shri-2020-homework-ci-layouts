@@ -4,6 +4,8 @@
   box-sizing: border-box;
   white-space: nowrap;
   text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100%;
   border: none;
   cursor: pointer;
   background: transparent;

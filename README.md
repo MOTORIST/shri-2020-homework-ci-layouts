@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://yastatic.net/s3/lpc/28978093-8753-4cf9-97b2-dcc79dbe722d.svg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Yandex SHRI 2020, BEM homework</h3>
+<h3 align="center">Yandex SHRI 2020, CI layouts</h3>
 
 ---
 

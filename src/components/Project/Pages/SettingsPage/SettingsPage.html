@@ -1,0 +1,70 @@
+<div class="Page SettingsPage">
+  <div class="Header">
+    <div class="Header-Container Container Container_distribute_between Container_vertical-align_center">
+      <div class="Header-Title Typography Typography_variant_h3 Typography_color_neutral">
+        School CI server
+      </div>
+    </div>
+  </div>
+
+  <div class="Page-Content Container">
+    <div class="SettingsForm">
+      <div class="Typography Typography_variant_h4">Settings</div>
+      <div class="Typography Typography_variant_body Typography_color_neutral">
+        Configure repository connection and synchronization settings.
+      </div>
+      <form>
+        <div class="FormGroup">
+          <label class="FormGroup-Label FormGroup-Label_required" for="">GitHub repository</label>
+          <div class="Input Input_size_m">
+            <input class="Input-Control" placeholder="user-name/repo-name" />
+          </div>
+        </div>
+        <div class="FormGroup">
+          <label class="FormGroup-Label" for="">Build command</label>
+          <div class="Input Input_size_m">
+            <input class="Input-Control" placeholder="npm ci && npm run build" />
+          </div>
+        </div>
+        <div class="FormGroup">
+          <label class="FormGroup-Label" for="">Main branch</label>
+          <div class="Input Input_size_m Input_clearable">
+            <input class="Input-Control" value="text" placeholder="Placeholder" />
+            <button class="Input-ClearButton Button Button_icon_clear" type="button">
+              <div class="Button-Icon">
+                <svg class="Input-ClearIcon Icon Icon_size_s" viewBox="0 0 16 16" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8 16C3.6 16 0 12.4 0 8C0 3.6 3.6 0 8 0C12.4 0 16 3.6 16 8C16 12.4 12.4 16 8 16ZM12 5.12L10.88 4L8 6.88L5.12 4L4 5.12L6.88 8L4 10.88L5.12 12L8 9.12L10.88 12L12 10.88L9.12 8L12 5.12Z" />
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="FormGroup FormGroup_row">
+          <label class="FormGroup-Label" for="">Synchronize every</label>
+          <div class="SettingsForm-MinutesInput Input Input_size_m">
+            <input class="Input-Control" placeholder="10" />
+          </div>
+          <div class="FormGroup-Hint">minutes</div>
+        </div>
+
+        <div>
+          <button class="SettingsForm-SaveButton Button Button_color_primary Button_size_m Button_full">Save</button>
+          <button
+            class="SettingsForm-CancelButton Button Button_color_default Button_size_m Button_full">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="Footer">
+    <div class="Footer-Container Container Container_arrange_col Container_distribute_between Container_height-full">
+      <ul class="Footer-Menu">
+        <li class="Footer-MenuItem"><a class="Link" href="#">Support</a></li>
+        <li class="Footer-MenuItem"><a class="Link" href="#">Learning</a></li>
+      </ul>
+      <div class="Footer-Menu">© 2020 Your Name</div>
+    </div>
+  </div>
+</div>

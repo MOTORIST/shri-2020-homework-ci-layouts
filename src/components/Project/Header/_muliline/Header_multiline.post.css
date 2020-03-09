@@ -1,10 +1,13 @@
 .Header_multiline {
-  height: initial;
-  align-items: flex-start;
   padding: var(--space-2xs) var(--space-s);
-
+  height: initial;
+  
   .Header-Title {
     margin: 0;
+  }
+
+  .Header-Container {
+    align-items: flex-start;
   }
 
   @media (min-width: $screen-m) {

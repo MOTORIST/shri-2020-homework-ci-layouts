@@ -1,0 +1,9 @@
+.Page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .Page-Header {
+    height: 52px;
+  }
+}

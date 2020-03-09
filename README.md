@@ -62,6 +62,7 @@ yarn build-storybook
   - разобраться с цветами (не все цвета выделены в общие переменные)
   - сделать повторное review отступов
   - реализовать ClearButton в Input через :placeholder-shown
+  - добавить сборку через rollup или переопределить настройки webpack storybook
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
